@@ -12,6 +12,7 @@ nav { display: block;
 header {
     margin-bottom: 5em;
 }
+
 h1 {
     margin-right: 2 em auto;
     font-family: 'Marcellus', sans-serif;;
@@ -29,25 +30,35 @@ h3 {text-align: center;
     font-family: 'Marcellus', sans-serif; font-size: 30px;
     color: #010101;
 }
+h4 {font-family: 'Dosis', sans-serif; font-size: 15px;
+    color: rgba(131, 129, 129, 0.6);
+    margin-left: 2em;
+}
+h5 {font-family: 'Dosis', sans-serif; font-size: 15px;
+    color: rgba(131, 129, 129, 0.6);
+    margin-left: 2em;
+}
+h6 {font-family: 'Dosis', sans-serif; font-size: 15px;
+    color: rgba(131, 129, 129, 0.6);
+    margin-left: 2em;
+}
 .content {
+    font-family: 'Dosis', sans-serif;
+    color: rgb(1, 1, 1);
     display: grid;
   grid-template-columns: .5fr 2fr 2fr;
   grid-auto-rows: minmax(100px, auto);
-  gap: 20px;
-  padding: 8px
+  border-bottom: 10px rgb(1, 1, 1);
   margin-top: 3em;
-    margin-bottom: 3em;
-    font-family: 'Dosis', sans-serif;
-    color: rgb(1, 1, 1);
+margin-bottom: 3em;
+  gap: 20px;
 }
 
-p1 {
-    margin-left: 10em;
-    max-width: 300px;
-}
-figure1 { 
+figure { 
+    border-style: inset 3px;
     float: right;
     margin-right: 2rem;
+    max-width: 400px;
 }
 
 main {
@@ -65,16 +76,21 @@ main {
     color: rgb(1, 1, 1);
     margin-left: 10em;
 }
-
-
-
 p {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis:wght@400', sans-serif;
     color: rgb(17, 18, 20);
     margin: 2em;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #db1460;
+    margin: 1 em 0;
+    padding: 0;
 }
 
 footer {
     margin-right: 2 em auto;
-    font-family: 'Marcellus', sans-serif;;
-    color: #db1460;}
+    font-family: 'Marcellus', sans-serif; font-size: 10px;
+    color: #676264;}
